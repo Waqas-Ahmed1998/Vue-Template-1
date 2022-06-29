@@ -575,6 +575,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(100 56 248 / var(--tw-bg-opacity));
 }
 
+.tw-bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .tw-bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -634,14 +639,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.tw-text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.tw-text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.tw-text-\[28px\] {
+  font-size: 28px;
 }
 
 .tw-text-xl {
@@ -649,17 +648,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.tw-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .tw-text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
 }
 
-.tw-text-\[28px\] {
-  font-size: 28px;
-}
-
 .tw-font-normal {
   font-weight: 400;
+}
+
+.tw-font-semibold {
+  font-weight: 600;
 }
 
 .tw-font-bold {
@@ -670,12 +674,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 500;
 }
 
-.tw-font-semibold {
-  font-weight: 600;
+.tw-leading-\[22px\] {
+  line-height: 22px;
 }
 
-.tw-leading-\[36px\] {
-  line-height: 36px;
+.tw-leading-\[34px\] {
+  line-height: 34px;
+}
+
+.tw-leading-\[24px\] {
+  line-height: 24px;
 }
 
 .tw-leading-\[30px\] {
@@ -684,26 +692,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .tw-leading-\[32px\] {
   line-height: 32px;
-}
-
-.tw-leading-\[34px\] {
-  line-height: 34px;
-}
-
-.tw-leading-\[20px\] {
-  line-height: 20px;
-}
-
-.tw-leading-\[22px\] {
-  line-height: 22px;
-}
-
-.tw-leading-\[24px\] {
-  line-height: 24px;
-}
-
-.tw-tracking-\[-1px\] {
-  letter-spacing: -1px;
 }
 
 .tw-text-\[\#fbfbfb\] {
@@ -715,19 +703,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: transparent;
 }
 
-.tw-text-\[\#ffffff\] {
+.tw-text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.tw-text-\[\#fc5d4f\] {
+  --tw-text-opacity: 1;
+  color: rgb(252 93 79 / var(--tw-text-opacity));
 }
 
 .tw-text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.tw-text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .tw-text-\[\#fdfdfd\] {
@@ -757,11 +745,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Lato', sans-serif;
 }
 
 .subheading {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 input {
@@ -770,11 +759,12 @@ input {
 
 .heading {
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 .call{
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
 }
 
 .disclaimer {
@@ -910,18 +900,9 @@ font-family: 'Vazirmatn', sans-serif;*/
     line-height: 2.5rem;
   }
 
-  .md\:tw-text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md\:tw-text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .md\:tw-leading-\[1\.1\] {
-    line-height: 1.1;
   }
 }
 
@@ -939,17 +920,13 @@ font-family: 'Vazirmatn', sans-serif;*/
     font-size: 28px;
   }
 
-  .lg\:tw-text-\[58px\] {
-    font-size: 58px;
+  .lg\:tw-text-\[40px\] {
+    font-size: 40px;
   }
 
   .lg\:tw-text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .lg\:tw-text-\[40px\] {
-    font-size: 40px;
   }
 
   .lg\:tw-leading-\[52px\] {

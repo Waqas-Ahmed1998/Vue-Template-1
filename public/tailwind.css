@@ -9,8 +9,9 @@
 }
 body {
 
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
 
+  font-family: 'Lato', sans-serif;
 
 
 }
@@ -19,7 +20,7 @@ body {
 
 
 
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 
 
 
@@ -31,7 +32,7 @@ input {
   /* font-family: 'Roboto', sans-serif; */
 
 
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 
 
 
@@ -43,7 +44,8 @@ input {
 .call{
 
 
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
 
 
 }
