@@ -566,6 +566,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(45 45 45 / var(--tw-bg-opacity));
 }
 
+.tw-bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .tw-bg-transparent {
   background-color: transparent;
 }
@@ -573,11 +578,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-bg-\[\#6438F8\] {
   --tw-bg-opacity: 1;
   background-color: rgb(100 56 248 / var(--tw-bg-opacity));
-}
-
-.tw-bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .tw-bg-gradient-to-r {
@@ -678,25 +678,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 22px;
 }
 
-.tw-leading-\[34px\] {
-  line-height: 34px;
+.tw-leading-\[28px\] {
+  line-height: 28px;
 }
 
 .tw-leading-\[24px\] {
   line-height: 24px;
 }
 
-.tw-leading-\[30px\] {
-  line-height: 30px;
-}
-
-.tw-leading-\[32px\] {
-  line-height: 32px;
-}
-
 .tw-text-\[\#fbfbfb\] {
   --tw-text-opacity: 1;
   color: rgb(251 251 251 / var(--tw-text-opacity));
+}
+
+.tw-text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .tw-text-transparent {
@@ -711,11 +708,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-text-\[\#fc5d4f\] {
   --tw-text-opacity: 1;
   color: rgb(252 93 79 / var(--tw-text-opacity));
-}
-
-.tw-text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .tw-text-\[\#fdfdfd\] {
