@@ -700,14 +700,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: transparent;
 }
 
-.tw-text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .tw-text-\[\#fc5d4f\] {
   --tw-text-opacity: 1;
   color: rgb(252 93 79 / var(--tw-text-opacity));
+}
+
+.tw-text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .tw-text-\[\#fdfdfd\] {
